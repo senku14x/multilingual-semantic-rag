@@ -1,16 +1,13 @@
-🌍 Multilingual Semantic Search + RAG
-An end-to-end multilingual semantic search engine that lets users ask a question in any supported language (English, Hindi, French, Spanish) and retrieves cross-lingual relevant documents.
-It then uses Retrieval-Augmented Generation (RAG) to generate a grounded, context-aware answer.
+# Multilingual Semantic Search + RAG
+This project is a *multilingual search engine* that lets you ask a question in one language (English, Hindi, French, or Spanish) and find relevant documents in multiple other languages.
+It then uses RAG (Retrieval-Augmented Generation) to give you a clear, AI-generated answer based on the documents it finds.
 
-🚀 Features
-Cross-Lingual Search — Find documents in multiple languages for a query in any one language.
+# Features
+1.Search in Any Supported Language – Find documents across languages.
+2.Fast Vector Search – Uses FAISS to quickly find the most relevant results.
+3.Smart Answers – Uses TinyLLaMA to give short, accurate answers from search results.
+4.Automatic Translation – Uses NLLB-200 so results are in the language you asked.
+5.Easy to Use Interface – Built with Gradio.
 
-Dense Embeddings — Uses intfloat/multilingual-e5-base for high-quality semantic representations.
 
-Vector Search — Fast similarity search with FAISS.
 
-RAG Integration — TinyLLaMA generates answers using retrieved documents.
-
-Multilingual Translation Bridge — facebook/nllb-200 enables search and answer generation across languages.
-
-Interactive UI — Built with Gradio; easily deployable to Hugging Face Spaces
